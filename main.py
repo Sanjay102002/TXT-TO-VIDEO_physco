@@ -394,7 +394,7 @@ async def txt_handler(bot: Client, m: Message):
             if 'workers.dev' in url:
              vid_id = url.split("cloudfront.net/")[1].split("/")[0]
              print(vid_id)
-             url = f"https://madxapi-d0cbf6ac738c.herokuapp.com/{vid_id}/master.m3u8?token=eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIyNTcyMzc4LCJvcmdJZCI6Mzc2MTY5LCJ0eXBlIjoxLCJtb2JpbGUiOiI5MTgyNzk5NDEzNDgiLCJuYW1lIjoiTmVoYSBTaGFybWEiLCJlbWFpbCI6Imtpc2hvcmlsYWRkdTEzMDhAZ21haWwuY29tIiwiaXNJbnRlcm5hdGlvbmFsIjowLCJkZWZhdWx0TGFuZ3VhZ2UiOiJFTiIsImNvdW50cnlDb2RlIjoiSU4iLCJjb3VudHJ5SVNPIjoiOTEiLCJ0aW1lem9uZSI6IkdNVCs1OjMwIiwiaXNEaXkiOnRydWUsIm9yZ0NvZGUiOiJnam9xZiIsImlzRGl5U3ViYWRtaW4iOjAsImZpbmdlcnByaW50SWQiOiJkODBkMjc1NTkxYWE0NDQ5OGY5MmVlMDA4YzFhNjVmMyIsImlhdCI6MTc0OTMxNjUwNywiZXhwIjoxNzQ5OTIxMzA3fQ.5T8SnIkrKpK1_kcPONEo01z-2_Mm21R3U7IeAbPYoxePLlP911DnpBLlpwFii8uE}"
+             url = f"https://madxapi-d0cbf6ac738c.herokuapp.com/{vid_id}/master.m3u8?token=eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIyNTcyMzc4LCJvcmdJZCI6Mzc2MTY5LCJ0eXBlIjoxLCJtb2JpbGUiOiI5MTgyNzk5NDEzNDgiLCJuYW1lIjoiTmVoYSBTaGFybWEiLCJlbWFpbCI6Imtpc2hvcmlsYWRkdTEzMDhAZ21haWwuY29tIiwiaXNJbnRlcm5hdGlvbmFsIjowLCJkZWZhdWx0TGFuZ3VhZ2UiOiJFTiIsImNvdW50cnlDb2RlIjoiSU4iLCJjb3VudHJ5SVNPIjoiOTEiLCJ0aW1lem9uZSI6IkdNVCs1OjMwIiwiaXNEaXkiOnRydWUsIm9yZ0NvZGUiOiJnam9xZiIsImlzRGl5U3ViYWRtaW4iOjAsImZpbmdlcnByaW50SWQiOiJkODBkMjc1NTkxYWE0NDQ5OGY5MmVlMDA4YzFhNjVmMyIsImlhdCI6MTc0OTMxNjUwNywiZXhwIjoxNzQ5OTIxMzA3fQ.5T8SnIkrKpK1_kcPONEo01z-2_Mm21R3U7IeAbPYoxePLlP911DnpBLlpwFii8uE"
                 
             if 'psitoffers.store' in url:
              vid_id = url.split("vid=")[1].split("&")[0]
